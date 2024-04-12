@@ -600,6 +600,12 @@ video {
   }
 }
 
+@media (min-width: 1950px) {
+  .container {
+    max-width: 1950px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1915,6 +1921,14 @@ video {
      object-fit: scale-down;
 }
 
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
+.pb-\[32px\] {
+  padding-bottom: 32px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1969,11 +1983,6 @@ video {
 
 .align-super {
   vertical-align: super;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -2469,6 +2478,12 @@ video {
       max-width: 1536px;
     }
   }
+
+  @media (min-width: 1950px) {
+    .sm\:container {
+      max-width: 1950px;
+    }
+  }
 }
 
 .hover\:font-bold:hover {
@@ -2494,14 +2509,26 @@ video {
 }
 
 @media (min-width: 320px) {
-  .mobile-1\:text-center {
-    text-align: center;
+  .mobile-1\:h-\[32px\] {
+    height: 32px;
+  }
+
+  .mobile-1\:w-\[170px\] {
+    width: 170px;
   }
 }
 
 @media (min-width: 480px) {
-  .mobile-2\:text-left {
-    text-align: left;
+  .mobile-2\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .mobile-2\:w-\[268px\] {
+    width: 268px;
+  }
+
+  .mobile-2\:pt-\[48px\] {
+    padding-top: 48px;
   }
 }
 
@@ -2512,8 +2539,14 @@ video {
 }
 
 @media (min-width: 768px) {
-  .mobile-3\:text-right {
-    text-align: right;
+  .mobile-3\:pt-\[86px\] {
+    padding-top: 86px;
+  }
+}
+
+@media (min-width: 1950px) {
+  .large-desktop\:pt-\[104px\] {
+    padding-top: 104px;
   }
 }
 
