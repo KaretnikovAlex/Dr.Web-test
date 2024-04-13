@@ -22,11 +22,15 @@ module.exports = {
         'desktop': '1280px',
         // => @media (min-width: 1280px) { ... }
 
-        'large-desktop': '1950px',
-        // => @media (min-width: 1950px) { ... }
+        'large-desktop': '1920px',
+        // => @media (min-width: 1920px) { ... }
       },
-
-    },
-    plugins: [],
+      // fontSize: {
+      //   mobile1: ['20px', {
+      //     lineHeight: '23.44px',
+      //   }],
+      // },
+      plugins: [],
+    }
   }
 }
