@@ -733,12 +733,24 @@ video {
   clear: none;
 }
 
+.mb-\[12px\] {
+  margin-bottom: 12px;
+}
+
 .mb-\[24px\] {
   margin-bottom: 24px;
 }
 
+.mb-\[25px\] {
+  margin-bottom: 25px;
+}
+
 .mb-\[32px\] {
   margin-bottom: 32px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
 }
 
 .mb-\[8px\] {
@@ -848,6 +860,10 @@ video {
   display: none;
 }
 
+.w-\[223px\] {
+  width: 223px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -862,6 +878,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[270px\] {
+  max-width: 270px;
 }
 
 .flex-shrink {
@@ -1937,6 +1957,11 @@ video {
      object-fit: scale-down;
 }
 
+.px-\[12px\] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .px-\[16px\] {
   padding-left: 16px;
   padding-right: 16px;
@@ -1947,12 +1972,29 @@ video {
   padding-right: 25px;
 }
 
+.px-\[32px\] {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 .pb-\[12px\] {
   padding-bottom: 12px;
 }
 
+.pb-\[24px\] {
+  padding-bottom: 24px;
+}
+
 .pb-\[32px\] {
   padding-bottom: 32px;
+}
+
+.pb-\[40px\] {
+  padding-bottom: 40px;
+}
+
+.pb-\[8px\] {
+  padding-bottom: 8px;
 }
 
 .pt-\[40px\] {
@@ -2015,12 +2057,28 @@ video {
   vertical-align: super;
 }
 
+.text-\[14px\] {
+  font-size: 14px;
+}
+
 .text-\[16px\] {
   font-size: 16px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .font-bold {
@@ -2111,12 +2169,24 @@ video {
   line-height: 18.85px;
 }
 
+.leading-\[18px\] {
+  line-height: 18px;
+}
+
 .leading-\[23\.44px\] {
   line-height: 23.44px;
 }
 
 .leading-\[24px\] {
   line-height: 24px;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[36px\] {
+  line-height: 36px;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -2126,6 +2196,16 @@ video {
 .text-\[\#666\] {
   --tw-text-opacity: 1;
   color: rgb(102 102 102 / var(--tw-text-opacity));
+}
+
+.text-\[\#B3B3B3\] {
+  --tw-text-opacity: 1;
+  color: rgb(179 179 179 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -2499,8 +2579,11 @@ video {
   forced-color-adjust: none;
 }
 
+body{
+  font-family: roboto, sans-serif;
+}
+
 .button-green {
-  width: 223px;
   height: 48px;
   padding: 15px 8px;
   background-color: #69B42E;
@@ -2528,6 +2611,23 @@ video {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+}
+
+.transparent-button{
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ccc;
+  height: 40px;
+  padding: 8px 12px;
+  border-radius: 80px;
+  color: #D9D9D9;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.green-shield-block{
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 @media (min-width: 480px) {
@@ -2680,8 +2780,16 @@ video {
     margin-bottom: 32px;
   }
 
+  .mobile-2\:mb-\[60px\] {
+    margin-bottom: 60px;
+  }
+
   .mobile-2\:mb-\[64px\] {
     margin-bottom: 64px;
+  }
+
+  .mobile-2\:flex {
+    display: flex;
   }
 
   .mobile-2\:h-\[50px\] {
@@ -2692,8 +2800,24 @@ video {
     width: 268px;
   }
 
+  .mobile-2\:max-w-\[368px\] {
+    max-width: 368px;
+  }
+
+  .mobile-2\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
+  .mobile-2\:justify-center {
+    justify-content: center;
+  }
+
   .mobile-2\:rounded-\[32px\] {
     border-radius: 32px;
+  }
+
+  .mobile-2\:pb-\[45px\] {
+    padding-bottom: 45px;
   }
 
   .mobile-2\:pt-\[48px\] {
@@ -2741,9 +2865,21 @@ video {
     margin-right: 32px;
   }
 
+  .mobile-3\:mb-\[80px\] {
+    margin-bottom: 80px;
+  }
+
+  .mobile-3\:max-w-\[442px\] {
+    max-width: 442px;
+  }
+
   .mobile-3\:px-\[32px\] {
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .mobile-3\:pb-\[80px\] {
+    padding-bottom: 80px;
   }
 
   .mobile-3\:pt-\[86px\] {
@@ -2787,6 +2923,10 @@ video {
 }
 
 @media (min-width: 1920px) {
+  .large-desktop\:mb-\[0\] {
+    margin-bottom: 0;
+  }
+
   .large-desktop\:mb-\[64px\] {
     margin-bottom: 64px;
   }
@@ -2795,8 +2935,24 @@ video {
     flex-direction: row;
   }
 
+  .large-desktop\:items-center {
+    align-items: center;
+  }
+
+  .large-desktop\:justify-around {
+    justify-content: space-around;
+  }
+
   .large-desktop\:pt-\[104px\] {
     padding-top: 104px;
+  }
+
+  .large-desktop\:pt-\[80px\] {
+    padding-top: 80px;
+  }
+
+  .large-desktop\:pt-\[0\] {
+    padding-top: 0;
   }
 
   .large-desktop\:text-\[40px\] {
