@@ -87,7 +87,19 @@ body {
     .gears-block {
         background-size: 220px;
     }
+
+    .description-block {
+        margin: 0 auto;
+        max-width: 475px;
+    }
 }
+
+@media screen and (min-width: 640px) {
+    .description-block {
+        max-width: 633px;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .description {
@@ -99,6 +111,23 @@ body {
     .gears-block {
         background-size: 100%;
         background-position: bottom;
+    }
+
+    .footer-container {
+        margin: 0 auto;
+        max-width: 695px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-container {
+        max-width: 946px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-container {
+        max-width: 1171px;
     }
 }
 
